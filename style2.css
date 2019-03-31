@@ -1,0 +1,160 @@
+#bg{
+	min-width:100%;
+	min-height:1024;
+	width:100%;
+	height:auto;
+	position:fixed;
+	top:0;
+	left:0;
+	-webkit-filter: blur(5px);
+	filter:blur(5px);
+	}
+	div.d{
+	position:relative;
+	top:20px;
+	left:0px;
+	min-width:100%;
+	width:100%;
+	height:90px;
+	border:2px black solid;
+	border-radius:20px;
+	background:mistyrose;
+	-webkit-animation-name: anim; 
+    -webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count:infinite;
+	animation-name: anim;
+     animation-duration: 4s;
+	 animation-iteration-count: infinite;
+	}
+
+	#main {
+		width: 930px;
+		height:900px;
+		position:relative;
+		left:150px;
+		top:90px;
+		margin-right:930px;
+		background:bisque;
+		}
+	#header {
+				 position:relative;
+				 background:#f3f3f3;
+				 width:930px;
+				 height:200px;
+				 border-bottom:4px red solid;
+				}
+	div.d01{
+			 width:120px;
+			 height:160px;
+			 position:relative;
+			 left:25px;
+			 border:2px grey solid;
+			 border-radius:50%;
+			 }
+	.d01 img{
+			width:120px;
+			height:160px;
+			border-radius:50%;
+			}
+	div.d02{
+			 position:relative;
+			 top:50px;
+			 left:50px;
+			 height:80px;
+			 width:350px;
+		  }
+	div.d03{
+			position:relative;
+			 left:50px;
+			 width:200px;
+			 height:80px;
+		 }
+	div.d04{
+			position:relative;
+			left:180px;
+	
+		 }	 
+    .d04 table{ 
+	    text-align:right;
+		}
+		div.dd5{
+		position:relative;
+		left:250px;
+		top:5px;
+		max-width:100px;
+		max-height:100px;
+		width:100px;
+		height:100px;
+		}
+		.dd5 img{
+		 width:100px;
+		 height:100px;
+		 max-width:100px;
+		 max-height:100px;
+		 }
+		
+	.blink{
+	 animation:blinkingText 0.8s infinite;
+	 }
+	 @keyframes blinkingText{
+		0%{color: #000;}
+		49%{color:transparent;}
+		50%{color:transparent;}
+		99%{color:transparent;}
+		100%{color:#000;}
+		}
+	div.textarea{
+			position:relative;
+			}
+	div.d05,.d07,.d09,.d11,.d13{
+	position:relative;
+	top:10px;
+	left:20px;
+	}
+	div.d06,.d08,.d10,.d12,.d14{
+	position:relative;
+	top:10px;
+	left:20px;
+	}
+	.d02 h1,.d03 h2{
+	font-family:verdana;
+	weight:200%;
+	em:2.5px;
+	}
+	.d06 h4,.d08 h4,.d10 h4,.d12 h4,.d14 h4{
+			font-family:comic sans ms;
+			}
+	.d05 h3,.d07 h3,.d09 h3,.d11 h3,.d13 h3{
+			  color:orange;
+			  font-family:comic sans ms;
+			  }
+	.d04 table{
+			color:darkmagenta;
+			}
+			.d02 h1{
+			 color:darkmagenta;
+			 }
+			 .d03 h2{
+			 color:darkmagenta;
+			 }
+			 @-webkit-keyframes anim {
+						from {background-color: mistyrose;}
+						to {background-color: mintcream;}
+										}
+			 @keyframes anim {
+					from {background-color: mistyrose;}
+					to {background-color: mintcream;
+						}
+			div.di1{
+			position:relative;
+			width:50px;
+			height:50px;
+			max-width:50px;
+			max-height:50px;
+			}
+			 .di1 img{
+			  max-width:50px;
+			  max-height 50px;
+			  width:50px;
+			  height:50px;
+			  }
