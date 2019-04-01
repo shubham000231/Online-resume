@@ -9,11 +9,10 @@ div.bg{
 	-webkit-filter: blur(5px);
 	filter:blur(5px);
 	}
-bg img{
-	min-width:100%;
-	min-height:100%;
-	width:100%;
-	height:100%;
+	.bg img{
+		min-width:100%;min-height:100%;
+		width:100%;
+		height:100%;
 	}
 	div.d{
 	position:relative;
@@ -49,6 +48,7 @@ bg img{
 				 width:930px;
 				 height:200px;
 				 border-bottom:4px red solid;
+				
 				}
 	div.d01{
 			 width:120px;
@@ -78,7 +78,8 @@ bg img{
 		 }
 	div.d04{
 			position:relative;
-			left:180px;
+			bottom:10px;
+			left:120px;
 	
 		 }	 
     .d04 table{ 
@@ -86,8 +87,8 @@ bg img{
 		}
 		div.dd5{
 		position:relative;
-		left:250px;
-		top:5px;
+		left:150px;	
+		bottom:30px;
 		max-width:100px;
 		max-height:100px;
 		width:100px;
@@ -112,6 +113,7 @@ bg img{
 		}
 	div.textarea{
 			position:relative;
+			
 			}
 	div.d05,.d07,.d09,.d11,.d13{
 	position:relative;
