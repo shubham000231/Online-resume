@@ -16,13 +16,11 @@ div.bg{
 	}
 	div.d{
 	position:relative;
-	top:20px;
-	left:0px;
+	border-bottom:5px black solid;
 	min-width:100%;
 	width:100%;
 	height:90px;
-	border:2px black solid;
-	border-radius:20px;
+	
 	background:mistyrose;
 	-webkit-animation-name: anim; 
     -webkit-animation-duration: 4s;
@@ -101,16 +99,7 @@ div.bg{
 		 max-height:100px;
 		 }
 		
-	.blink{
-	 animation:blinkingText 0.8s infinite;
-	 }
-	 @keyframes blinkingText{
-		0%{color: #000;}
-		49%{color:transparent;}
-		50%{color:transparent;}
-		99%{color:transparent;}
-		100%{color:#000;}
-		}
+	
 	div.textarea{
 			position:relative;
 			
