@@ -21,13 +21,9 @@ div.bg{
 	width:100%;
 	height:90px;
 	
-	background:mistyrose;
+	background:mintcream;
 	-webkit-animation-name: anim; 
-    -webkit-animation-duration: 4s;
-	-webkit-animation-iteration-count:infinite;
-	animation-name: anim;
-     animation-duration: 4s;
-	 animation-iteration-count: infinite;
+ 
 	}
 
 	#main {
@@ -135,14 +131,6 @@ div.bg{
 			 .d03 h2{
 			 color:darkmagenta;
 			 }
-			 @-webkit-keyframes anim {
-						from {background-color: mistyrose;}
-						to {background-color: mintcream;}
-										}
-			 @keyframes anim {
-					from {background-color: mistyrose;}
-					to {background-color: mintcream;
-						}
 			div.di1{
 			position:relative;
 			width:50px;
